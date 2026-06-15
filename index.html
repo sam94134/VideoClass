@@ -1,245 +1,126 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>用短影音說出你的故事｜國高中生線上直播課程</title>
+<html lang="zh-Hant"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>用烘焙分享你的小宇宙｜烘焙短影音線上直播課程</title>
 <style>
-  :root{
-    --navy:#1F4E79; --blue:#2E75B6; --light:#EAF1FA; --accent:#C00000;
-    --grey:#555; --ink:#222; --line:#d9e2ef;
-  }
+  :root{--navy:#C2185B;--blue:#E08AAE;--light:#FDEEF4;--accent:#D81B60;--grey:#555;--ink:#3a2a30;--line:#f4dae4;}
   *{box-sizing:border-box;}
-  body{
-    margin:0; color:var(--ink);
-    font-family:"Microsoft JhengHei","PingFang TC","Noto Sans TC",system-ui,sans-serif;
-    line-height:1.8; background:#f4f7fb;
-  }
-  .wrap{max-width:880px; margin:0 auto; background:#fff; box-shadow:0 4px 24px rgba(0,0,0,.08);}
-  /* HERO */
-  .hero{
-    background:linear-gradient(135deg,var(--navy),var(--blue));
-    color:#fff; text-align:center; padding:54px 28px 46px;
-  }
-  .hero .badge{
-    display:inline-block; background:rgba(255,255,255,.18); color:#fff;
-    font-weight:700; font-size:15px; padding:6px 16px; border-radius:999px; margin-bottom:18px;
-  }
-  .hero h1{font-size:40px; margin:6px 0 10px; letter-spacing:1px;}
-  .hero .sub{font-size:19px; font-weight:600; opacity:.95; margin:0 0 22px;}
-  .hero .meta{
-    font-size:15px; border-top:1px solid rgba(255,255,255,.35);
-    padding-top:18px; margin-top:6px; opacity:.95;
-  }
-  /* HOOK */
-  .hook{padding:38px 32px 10px; text-align:center;}
-  .hook .q{font-size:26px; font-weight:800; color:var(--navy); margin:0 0 14px;}
-  .hook p{font-size:16px; color:var(--grey); max-width:680px; margin:0 auto;}
-  /* SECTIONS */
+  body{margin:0;color:var(--ink);font-family:"Microsoft JhengHei","PingFang TC","Noto Sans TC",system-ui,sans-serif;line-height:1.8;background:#fdf2f6;}
+  .wrap{max-width:880px;margin:0 auto;background:#fff;box-shadow:0 4px 24px rgba(0,0,0,.08);}
+  .hero{background:linear-gradient(135deg,#D81B60,#F48FB1);color:#fff;text-align:center;padding:54px 28px 46px;}
+  .hero .badge{display:inline-block;background:rgba(255,255,255,.25);color:#fff;font-weight:700;font-size:15px;padding:6px 16px;border-radius:999px;margin-bottom:18px;}
+  .hero h1{font-size:40px;margin:6px 0 10px;letter-spacing:1px;}
+  .hero .sub{font-size:19px;font-weight:600;opacity:.97;margin:0 0 22px;}
+  .hero .meta{font-size:15px;border-top:1px solid rgba(255,255,255,.45);padding-top:18px;margin-top:6px;opacity:.97;}
+  .hook{padding:38px 32px 10px;text-align:center;}
+  .hook .q{font-size:24px;font-weight:800;color:var(--navy);margin:0 0 14px;}
+  .hook p{font-size:16px;color:var(--grey);max-width:700px;margin:0 auto;text-align:justify;}
   section{padding:34px 32px;}
-  h2{
-    font-size:26px; color:var(--navy); margin:0 0 22px; padding-bottom:10px;
-    border-bottom:3px solid var(--blue); display:inline-block;
-  }
-  .feature{display:flex; gap:16px; align-items:flex-start; margin-bottom:20px;}
-  .feature-icon{font-size:30px; line-height:1.4; flex-shrink:0;}
-  .feature h3{margin:0 0 4px; font-size:19px; color:var(--blue);}
-  .feature p{margin:0; font-size:15.5px; color:#333;}
-  table{width:100%; border-collapse:collapse; margin-top:4px;}
-  th,td{border:1px solid var(--line); padding:12px 14px; font-size:15.5px; text-align:left; vertical-align:top;}
-  th{background:var(--light); color:var(--navy); width:26%; white-space:nowrap;}
-  /* PRICE */
-  .price-section{background:#fbfcfe;}
-  .price-highlight{
-    background:linear-gradient(135deg,#fff,var(--light));
-    border:2px solid var(--blue); border-radius:14px;
-    text-align:center; padding:24px; margin:0 0 22px;
-  }
-  .price-highlight .amount{font-size:42px; font-weight:800; color:var(--accent); line-height:1.2;}
-  .price-highlight .amount small{font-size:18px; color:var(--navy); font-weight:700;}
-  .price-highlight .per{font-size:15px; color:var(--grey); margin-top:4px;}
-  .note{font-size:13.5px; color:var(--grey); margin-top:12px;}
-  /* LAP TABLE */
+  h2{font-size:26px;color:var(--navy);margin:0 0 22px;padding-bottom:10px;border-bottom:3px solid var(--blue);display:inline-block;}
+  .feature{display:flex;gap:16px;align-items:flex-start;margin-bottom:20px;}
+  .feature-icon{font-size:30px;line-height:1.4;flex-shrink:0;}
+  .feature h3{margin:0 0 4px;font-size:19px;color:var(--accent);}
+  .feature p{margin:0;font-size:15.5px;color:#333;}
+  table{width:100%;border-collapse:collapse;margin-top:4px;}
+  th,td{border:1px solid var(--line);padding:12px 14px;font-size:15.5px;text-align:left;vertical-align:top;}
+  th{background:var(--light);color:var(--navy);width:26%;white-space:nowrap;}
+  .price-section{background:#fef7fa;}
+  .price-highlight{background:linear-gradient(135deg,#fff,var(--light));border:2px solid var(--blue);border-radius:14px;text-align:center;padding:24px;margin:0 0 22px;}
+  .price-highlight .amount{font-size:42px;font-weight:800;color:var(--accent);line-height:1.2;}
+  .price-highlight .amount small{font-size:18px;color:var(--navy);font-weight:700;}
+  .price-highlight .per{font-size:15px;color:var(--grey);margin-top:4px;}
+  .note{font-size:13.5px;color:var(--grey);margin-top:12px;}
   .lap td{font-size:15.5px;}
-  .lap .lap-n{
-    background:var(--navy); color:#fff; font-weight:700; text-align:center;
-    white-space:nowrap; width:90px;
-  }
-  /* CTA */
-  .cta{
-    background:linear-gradient(135deg,var(--navy),var(--blue));
-    color:#fff; text-align:center; padding:40px 28px;
-  }
-  .cta .big{font-size:23px; font-weight:800; margin:0 0 8px;}
-  .cta .contact{font-size:15px; opacity:.95; margin-top:14px;}
-  /* CURRICULUM */
-  .curriculum{background:#fff; border-top:8px solid var(--light);}
-  .lesson{
-    border:1px solid var(--line); border-left:5px solid var(--blue);
-    border-radius:8px; padding:20px 22px; margin-bottom:20px; background:#fff;
-  }
-  .lesson h3{margin:0 0 14px; font-size:20px; color:var(--navy);}
-  .lesson-num{
-    display:inline-block; background:var(--navy); color:#fff; font-size:14px;
-    font-weight:700; padding:3px 12px; border-radius:6px; margin-right:12px; vertical-align:middle;
-  }
-  .obj-label{font-weight:700; color:var(--accent); font-size:15px; margin:6px 0 6px;}
-  .objs{margin:0 0 14px; padding-left:22px;}
-  .objs li{font-size:15px; margin-bottom:5px;}
-  .intro-label{font-weight:700; color:var(--blue); font-size:15px; margin:8px 0 6px;}
-  .intro{font-size:15.5px; margin:0; text-align:justify; color:#2c2c2c;}
-  footer{text-align:center; font-size:13px; color:var(--grey); padding:22px;}
-  @media(max-width:600px){
-    .hero h1{font-size:30px;} .hook .q{font-size:21px;}
-    th{width:34%;} section{padding:26px 18px;}
-  }
-</style>
-</head>
-<body>
-  <div class="wrap">
-    <header class="hero">
-      <div class="badge">🎬 招生簡章 · 線上直播版</div>
-      <h1>用短影音說出你的故事</h1>
-      <p class="sub">從生活分享到個人品牌 · 國高中生專屬線上直播課程</p>
-      <div class="meta">10 堂直播課　|　每堂 50 分鐘　|　老師線上即時授課　|　可互動提問　|　零基礎可上</div>
-    </header>
-
-    <div class="hook">
-      <p class="q">「滑了這麼多短影音，要不要換你來拍？」</p>
-      <p>這不只是一堂拍片課。10 堂線上直播課程，老師即時授課、現場示範，孩子有問題當下就能舉手提問，還能和同學一起學習、互相激勵。我們教孩子用短影音記錄生活、表達自己、累積作品，更在過程中培養表達力、媒體識讀，以及健康使用社群的正確心態。</p>
-    </div>
-
-    <section>
-      <h2>為什麼選這堂課？</h2>
-      
-      <div class="feature">
-        <div class="feature-icon">📡</div>
-        <div><h3>老師直播授課，即時又生動</h3><p>全程線上直播，老師現場示範拍攝與剪輯，每個步驟看得清清楚楚，比起自己摸索更快上手，學習氣氛也更投入。</p></div>
-      </div>
-      <div class="feature">
-        <div class="feature-icon">🙋</div>
-        <div><h3>有問題當下就能問</h3><p>直播中可即時舉手提問，孩子卡關不用憋著，老師當場解答、當場示範，學習不留疑問。</p></div>
-      </div>
-      <div class="feature">
-        <div class="feature-icon">👥</div>
-        <div><h3>和同學一起學，更有動力</h3><p>和同齡夥伴一起上課、彼此觀摩作品，互相激勵、良性切磋，讓孩子更願意持續創作。</p></div>
-      </div>
-      <div class="feature">
-        <div class="feature-icon">✏️</div>
-        <div><h3>一支手機就能開始</h3><p>不必買昂貴設備，從拍攝、剪輯到發布，孩子用手上的手機就能完成一支完整作品，學了馬上用得到。</p></div>
-      </div>
-      <div class="feature">
-        <div class="feature-icon">🧠</div>
-        <div><h3>不只技巧，更練能力</h3><p>Hook、腳本、定位等訓練，同時提升孩子的表達力、邏輯思考與簡報能力，對寫作、報告、面試都有幫助。</p></div>
-      </div>
-      <div class="feature">
-        <div class="feature-icon">🛡️</div>
-        <div><h3>安全與健康擺第一</h3><p>全程融入隱私保護、版權觀念、面對負面留言與螢幕時間管理，讓孩子在網路世界懂得保護自己。</p></div>
-      </div>
-    </section>
-
-    <section>
-      <h2>課程資訊</h2>
-      <table><tbody><tr><th>適合對象</th><td>國中、高中學生（無需任何拍片或剪輯經驗）</td></tr><tr><th>課程形式</th><td>10 堂線上直播課程，每堂 50 分鐘</td></tr><tr><th>上課方式</th><td>固定時段線上直播，老師即時授課，可互動提問</td></tr><tr><th>貼心服務</th><td>直播若無法參與，提供課後回放，不怕錯過進度</td></tr><tr><th>需要準備</th><td>一支能上網與拍照的手機、可安裝免費剪輯 App（CapCut），建議搭配可上線聽課的裝置</td></tr><tr><th>結業成果</th><td>每位學員產出個人帳號定位與一支代表作品</td></tr></tbody></table>
-    </section>
-
-    <section class="price-section">
-      <h2>課程費用</h2>
-      <div class="price-highlight">
-        <div class="amount"><small>NT$</small> 30,000 <small>元／全 10 堂</small></div>
-        <div class="per">平均每堂約 NT$ 3,000 元</div>
-      </div>
-      <table><tbody><tr><th>課程內容</th><td>10 堂線上直播課程（每堂 50 分鐘）＋ 課後回放</td></tr><tr><th>課程費用</th><td>NT$ 30,000 元／全 10 堂</td></tr><tr><th>平均單堂</th><td>每堂約 NT$ 3,000 元</td></tr><tr><th>包含項目</th><td>完整 10 堂直播授課、課後回放、課程講義與練習素材</td></tr></tbody></table>
-      <p class="note">＊報名與繳費方式、優惠方案請洽課程顧問。</p>
-    </section>
-
-    <section>
-      <h2>10 堂課一次看</h2>
-      <table class="lap"><tbody><tr><td class="lap-n">第1堂</td><td>為什麼是短影音？認識這個世界</td></tr><tr><td class="lap-n">第2堂</td><td>先找到「你是誰」——定位與主題</td></tr><tr><td class="lap-n">第3堂</td><td>內容從哪來？選題與靈感庫</td></tr><tr><td class="lap-n">第4堂</td><td>開頭三秒定生死——Hook 的設計</td></tr><tr><td class="lap-n">第5堂</td><td>拍攝基本功——手機就能做</td></tr><tr><td class="lap-n">第6堂</td><td>剪輯入門——用 CapCut 做出完整影片</td></tr><tr><td class="lap-n">第7堂</td><td>寫出好腳本——讓內容有結構</td></tr><tr><td class="lap-n">第8堂</td><td>發布與互動——讓更多人看見</td></tr><tr><td class="lap-n">第9堂</td><td>從「分享生活」到「個人品牌」</td></tr><tr><td class="lap-n">第10堂</td><td>成果發表與下一步</td></tr></tbody></table>
-    </section>
-
-    <div class="cta">
-      <p class="big">直播名額有限，立即報名卡位，<br>讓孩子跟著老師從零開始學會創作！</p>
-      <p class="contact">報名與洽詢：［請填入聯絡方式 / 報名連結 / QR Code］</p>
-    </div>
-
-    <section class="curriculum">
-      <h2>完整課程內容</h2>
-      <p style="color:var(--grey);font-size:15px;margin-top:-10px;">每堂課含學習目標與課程簡介</p>
-      
-      <article class="lesson">
-        <h3><span class="lesson-num">第 1 堂</span>為什麼是短影音？認識這個世界</h3>
-        <div class="obj-label">學習目標</div>
-        <ul class="objs"><li>看懂五大短影音平台（Reels、TikTok、Shorts、Facebook、LINE VOOM）的差異與觀眾</li><li>理解一支短影音的三段結構：開頭、內容、行動呼籲</li><li>建立媒體識讀觀念，從「觀眾」轉換成「創作者」視角</li></ul>
-        <div class="intro-label">課程簡介</div>
-        <p class="intro">短影音已經是這個世代最重要的表達方式之一，但它不只是「拍個影片」這麼簡單。這堂課我們先帶你看懂整個短影音世界的樣貌：Instagram Reels、TikTok、YouTube Shorts、Facebook、LINE VOOM 各自有什麼特色與觀眾，同樣一支影片放在不同平台會有什麼不同效果。接著，我們會拆解一支短影音的底層邏輯——開頭（Hook）、內容、行動呼籲（CTA）這三段結構，讓你明白為什麼有些影片你會看完、有些卻三秒就滑掉。我們也會一起討論，身為國高中生，短影音可以為你做什麼：記錄成長、找到志同道合的朋友、累積屬於自己的作品，而不只是追逐流量。課堂中你會親手分析三支自己最近愛看的影片，找出它們吸引你的真正原因。上完這堂課，你會從「觀眾」的角度，轉換成開始用「創作者」的眼光看世界。這是整個課程的起點，也是培養媒體識讀能力的第一步，讓你在資訊爆炸的時代，懂得分辨好內容、也懂得怎麼做出好內容。</p>
-      </article>
-      <article class="lesson">
-        <h3><span class="lesson-num">第 2 堂</span>先找到「你是誰」——定位與主題</h3>
-        <div class="obj-label">學習目標</div>
-        <ul class="objs"><li>完成個人興趣與專長盤點</li><li>為自己的帳號選定 1～3 個核心主題與清楚定位</li><li>設計具吸引力的個人簡介（BIO）與帳號形象</li></ul>
-        <div class="intro-label">課程簡介</div>
-        <p class="intro">在拍片之前，最重要的問題其實是：「你是誰？你想分享什麼？」很多人一開始什麼都拍，結果帳號沒有記憶點，觀眾也記不住你。這堂課要帶你做的，是一場誠實的自我盤點：你擅長什麼、喜歡什麼、什麼事情可以講上半天也不累？可能是讀書方法、運動、畫畫、養寵物，或單純的日常生活。我們會教你如何從興趣中找出一到三個核心主題，建立清楚的帳號定位，避免內容雜亂無章。接著，你會學習設計自己的個人簡介（BIO）與帳號形象，讓別人一看就知道你是做什麼的。我們也會聊到「真實」的重要性——你不需要假裝成別人，最吸引人的內容往往來自最真實的你。課堂練習中，你會寫下一句話介紹自己的帳號，這句話會成為你之後所有內容的指南針。找到定位，不只是經營帳號的基礎，更是一個認識自己、整理興趣與專長的好機會，對你未來的升學與生涯探索同樣有幫助。</p>
-      </article>
-      <article class="lesson">
-        <h3><span class="lesson-num">第 3 堂</span>內容從哪來？選題與靈感庫</h3>
-        <div class="obj-label">學習目標</div>
-        <ul class="objs"><li>認識多種內容類型，理解同一主題的不同拍法</li><li>建立可持續使用的個人「靈感庫」收集系統</li><li>養成網路安全、隱私保護與肖像權的基本素養</li></ul>
-        <div class="intro-label">課程簡介</div>
-        <p class="intro">「我不知道要拍什麼」是每個創作者都會遇到的難題。這堂課要解決的，就是「靈感從哪來」這件事。我們會介紹幾種常見的內容類型：知識型、生活紀錄、心情分享、教學、開箱等等，讓你知道同一個興趣可以有很多種拍法。接著，我們會教你建立屬於自己的「靈感庫」——用筆記本或 Google 試算表，平常隨手收集點子，這樣到了要拍片的時候就不會腦袋一片空白。我們也會分享如何從日常生活、課堂、和身邊的人事物中挖掘題材。這堂課特別重要的一部分，是網路安全與隱私保護：哪些東西不該拍、為什麼不要隨意透露個人資訊、什麼是肖像權、拍到別人要不要經過同意。這些觀念能保護你，也是負責任創作者的基本素養。課堂練習中，你會列出十個自己拍得出來的題目，馬上建立起你的第一份內容清單。上完這堂課，你會發現靈感其實無所不在，缺的只是收集與整理的習慣。</p>
-      </article>
-      <article class="lesson">
-        <h3><span class="lesson-num">第 4 堂</span>開頭三秒定生死——Hook 的設計</h3>
-        <div class="obj-label">學習目標</div>
-        <ul class="objs"><li>理解前三秒對短影音成敗的關鍵影響</li><li>掌握提問、衝突、好奇、結果先講等開頭技巧</li><li>能為同一主題設計多種不同的開頭與標題</li></ul>
-        <div class="intro-label">課程簡介</div>
-        <p class="intro">在短影音的世界裡，前三秒決定一切。觀眾的手指滑動速度非常快，如果開頭抓不住人，再好的內容也沒人看得到。這堂課專門教你設計強而有力的開頭，也就是所謂的「Hook」。我們會先解釋為什麼前三秒這麼關鍵，再帶你認識幾種有效的開頭方法：直接提問、製造衝突、激發好奇、或是先講結果再回頭說過程。你會看到大量實際範例，理解同樣一個主題，用不同開頭會帶來完全不同的吸引力。我們也會教你怎麼下標題、怎麼設計開場字幕，讓觀眾在第一眼就決定「我要繼續看下去」。這堂課不只對拍影片有用，培養「換位思考、抓住重點」的能力，對你寫作文、做簡報、甚至面試自我介紹，都是非常實用的溝通技巧。課堂練習中，你會為同一個題目寫出三種不同的開頭，親身體會什麼樣的開場最能打動人。學會設計 Hook，你的內容才有機會被真正看見。</p>
-      </article>
-      <article class="lesson">
-        <h3><span class="lesson-num">第 5 堂</span>拍攝基本功——手機就能做</h3>
-        <div class="obj-label">學習目標</div>
-        <ul class="objs"><li>掌握構圖、光線、穩定度三大拍攝原則</li><li>熟悉直式畫面、解析度設定與基本運鏡</li><li>用手機完成一段自我介紹影片的實拍</li></ul>
-        <div class="intro-label">課程簡介</div>
-        <p class="intro">拍出好看的短影音，不需要昂貴的設備，一支手機就夠了，關鍵在於你懂不懂得運用基本功。這堂課會教你拍攝最重要的幾個原則：構圖（怎麼把畫面安排得好看）、光線（為什麼面光拍比較清楚）、穩定度（怎麼避免畫面晃動）。我們會專注在直式畫面的拍攝，因為這是短影音的標準格式，同時介紹解析度設定與簡單的運鏡技巧，讓你的影片看起來更專業。我們也會分享許多不用花錢就能提升畫質的小撇步，例如善用自然光、找乾淨的背景、把手機靠穩等等。這堂課強調「動手做」，理論講完馬上就要實作。課堂練習中，你會用手機拍一段十五秒的自我介紹影片，把學到的構圖與光線原則實際用上。拍攝是創作中最直接的環節，當你掌握了這些基本功，就會發現原來用身邊現有的工具，也能拍出讓人眼睛一亮的畫面。重點從來不是設備有多好，而是你有沒有用心觀察與練習。</p>
-      </article>
-      <article class="lesson">
-        <h3><span class="lesson-num">第 6 堂</span>剪輯入門——用 CapCut 做出完整影片</h3>
-        <div class="obj-label">學習目標</div>
-        <ul class="objs"><li>熟悉 CapCut 與 Canva 的基本剪輯操作</li><li>學會字幕、配樂、卡點與節奏的處理</li><li>建立音樂與素材的版權觀念，並產出一支完整短片</li></ul>
-        <div class="intro-label">課程簡介</div>
-        <p class="intro">拍好素材之後，剪輯就是讓影片「活起來」的魔法。這堂課帶你入門最常用的剪輯軟體 CapCut（剪映），以及好用的設計工具 Canva。你會學到剪輯的基本操作：怎麼裁剪片段、加上字幕、配上音樂、調整節奏，還有讓影片更有律動感的「卡點」技巧。我們會一步步示範，就算你完全沒有剪輯經驗，也能跟著做出一支完整的影片。這堂課還有一個非常重要的觀念——音樂與素材的版權。我們會教你什麼樣的音樂可以用、哪裡找得到免費合法的素材、為什麼不能隨便拿別人的作品來用。尊重創作、保護自己，是每個創作者都該有的態度。課堂練習中，你會把第五堂課拍的素材，實際剪成一支有字幕、有配樂的完整短片。當你第一次看到自己的素材變成一支像樣的作品，那種成就感會讓你更有動力繼續創作。剪輯能力不只用在影片，更是培養耐心、美感與細節掌控力的好訓練。</p>
-      </article>
-      <article class="lesson">
-        <h3><span class="lesson-num">第 7 堂</span>寫出好腳本——讓內容有結構</h3>
-        <div class="obj-label">學習目標</div>
-        <ul class="objs"><li>運用三段式架構（Hook、鋪陳、CTA）規劃內容</li><li>學會用 AI 工具輔助發想腳本與文案，掌握提問技巧</li><li>完成一支 30 秒影片的完整腳本並練習口語表達</li></ul>
-        <div class="intro-label">課程簡介</div>
-        <p class="intro">好的影片不是隨便拍拍就有，背後通常有一份清楚的腳本。這堂課要教你怎麼把腦中的想法，整理成有結構、有節奏的內容。我們會回到短影音的三段式架構：開頭用 Hook 抓住注意力、中間鋪陳把事情講清楚、結尾用 CTA 引導觀眾互動或行動。你會學到怎麼安排這三段，讓觀眾從頭看到尾。這堂課也會介紹如何善用 AI 工具（例如聊天機器人）來幫助你發想腳本與文案——重點是學會「怎麼問」，問對問題才能得到好答案，這是這個時代很重要的能力。我們同時會練習「口語自然」，教你怎麼把腳本講得像聊天一樣，而不是生硬地照稿念。課堂練習中，你會寫出一支三十秒影片的完整腳本，從第一句到最後一句都安排好。學會寫腳本，不只讓你的影片更有條理，也能訓練你的邏輯思考與表達能力，這對寫作、報告、演講都是直接受用的核心技能。</p>
-      </article>
-      <article class="lesson">
-        <h3><span class="lesson-num">第 8 堂</span>發布與互動——讓更多人看見</h3>
-        <div class="obj-label">學習目標</div>
-        <ul class="objs"><li>掌握發文時間、標籤、封面的基本經營技巧</li><li>學會健康、有禮貌的社群互動方式</li><li>建立面對負面留言與網路安全的正確心態，並規劃一週內容表</li></ul>
-        <div class="intro-label">課程簡介</div>
-        <p class="intro">影片做好了，接下來就是讓它被更多人看見。這堂課教你發布與經營的眉角。我們會談發文的時間點、怎麼選對標籤（hashtag）、封面圖要怎麼設計才吸引人點開——這些細節都會影響你的影片能觸及多少人。但比起追求數字，這堂課更想帶你思考「健康的社群經營」：怎麼有禮貌地回覆留言、怎麼真誠地和觀眾互動、怎麼建立一個友善的小社群。我們也會認真討論網路安全與心理界線：遇到負面留言或網路霸凌怎麼辦、什麼樣的私訊要警覺、如何保護自己的情緒不被陌生人的評論左右。這些都是在網路世界生存必備的能力。課堂練習中，你會規劃一週的發文內容表，學習有計畫地經營而不是想到才發。上完這堂課，你會明白經營帳號不只是「衝人氣」，更是學習與人相處、處理回饋、和保持自己步調的成長過程。穩定、真誠、有界線，才是長久經營的關鍵。</p>
-      </article>
-      <article class="lesson">
-        <h3><span class="lesson-num">第 9 堂</span>從「分享生活」到「個人品牌」</h3>
-        <div class="obj-label">學習目標</div>
-        <ul class="objs"><li>理解個人品牌的意義：一致的形象、價值與風格</li><li>學會看懂後台數據並據此調整內容方向</li><li>把興趣與作品集累積連結到升學與生涯，設定三個月目標</li></ul>
-        <div class="intro-label">課程簡介</div>
-        <p class="intro">當你持續分享一段時間後，就有機會從單純的「記錄生活」，慢慢長成屬於你的「個人品牌」。這堂課要帶你理解什麼是個人品牌：它是一種一致的形象、價值與風格，讓別人一想到某個主題就會想到你。我們會教你怎麼看懂後台數據——觀看次數、互動率、追蹤成長分別代表什麼意義，怎麼從數字中找出哪些內容受歡迎、該往哪個方向調整，而不是被數字牽著走。更重要的是，我們會幫你把「興趣」和「累積」連結起來：你拍的每一支影片，其實都在累積一份作品集，這份作品集未來在升學備審、社團申請、甚至打工求職時，都可能成為你的亮點。課堂練習中，你會設計一個三個月後想達成的小目標，讓經營有方向、有節奏。這堂課的核心是讓你看見：短影音不只是娛樂，更可以是一種認識自己、展現專長、為未來鋪路的工具。把興趣經營成品牌，是給未來的自己最好的投資。</p>
-      </article>
-      <article class="lesson">
-        <h3><span class="lesson-num">第 10 堂</span>成果發表與下一步</h3>
-        <div class="obj-label">學習目標</div>
-        <ul class="objs"><li>在直播中完成個人作品發表並進行同儕觀摩與回饋</li><li>建立持續產出與定期檢討的創作習慣</li><li>培養健康使用社群的心態：管理螢幕時間與心理界線</li></ul>
-        <div class="intro-label">課程簡介</div>
-        <p class="intro">經過九堂課的學習與練習，最後一堂是屬於你的成果發表。在直播課堂上，每位同學都會分享自己這段時間的作品，老師當場給予回饋，同學之間也能互相觀摩。看別人的創作、聽別人的想法，往往是進步最快的方式，你會從同學身上得到很多新靈感。我們也會一起回顧整個課程：從認識平台、找到定位、收集靈感、設計開頭、拍攝剪輯、寫腳本，到發布經營與建立品牌，你會發現自己已經走完了一趟完整的創作旅程。這堂課還會談「如何持續下去」——固定產出的習慣、定期檢討與調整的方法，讓創作不會三分鐘熱度。最後，我們會認真聊聊「健康使用社群」：怎麼管理螢幕時間、怎麼設定心理界線、怎麼不讓追蹤數和按讚數綁架自己的情緒與自我價值。這是整個課程最想送給你的觀念。結業時，每個人會發表自己的帳號定位與一支代表作。帶著這些能力與心態，你已經準備好，用短影音說出屬於自己的故事，走向下一步。</p>
-      </article>
-    </section>
-
-    <footer>用短影音說出你的故事 · 國高中生線上直播課程招生簡章</footer>
+  .lap .lap-n{background:var(--navy);color:#fff;font-weight:700;text-align:center;white-space:nowrap;width:90px;}
+  .cta{background:linear-gradient(135deg,#D81B60,#F48FB1);color:#fff;text-align:center;padding:40px 28px;}
+  .cta .big{font-size:23px;font-weight:800;margin:0 0 8px;}
+  .cta .contact{font-size:15px;opacity:.97;margin-top:14px;}
+  .curriculum{background:#fff;border-top:8px solid var(--light);}
+  .lesson{border:1px solid var(--line);border-left:5px solid var(--blue);border-radius:8px;padding:20px 22px;margin-bottom:20px;background:#fff;}
+  .lesson h3{margin:0 0 14px;font-size:20px;color:var(--navy);}
+  .lesson-num{display:inline-block;background:var(--navy);color:#fff;font-size:14px;font-weight:700;padding:3px 12px;border-radius:6px;margin-right:12px;vertical-align:middle;}
+  .obj-label{font-weight:700;color:var(--accent);font-size:15px;margin:6px 0 6px;}
+  .objs{margin:0 0 14px;padding-left:22px;}
+  .objs li{font-size:15px;margin-bottom:5px;}
+  .intro-label{font-weight:700;color:var(--blue);font-size:15px;margin:8px 0 6px;}
+  .intro{font-size:15.5px;margin:0;text-align:justify;color:#2c2c2c;}
+  footer{text-align:center;font-size:13px;color:var(--grey);padding:22px;}
+  @media(max-width:600px){.hero h1{font-size:28px;}.hook .q{font-size:19px;}th{width:36%;}section{padding:26px 18px;}}
+</style></head>
+<body><div class="wrap">
+  <header class="hero">
+    <div class="badge">🧁 烘焙短影音線上課程</div>
+    <h1>用烘焙，分享你的小宇宙</h1>
+    <p class="sub">找到自信、認識同好、做喜歡的事 · 烘焙短影音線上直播課程</p>
+    <div class="meta">10 堂直播課　|　每堂 50 分鐘　|　約定時間上線　|　課後回放複習　|　零基礎也能上</div>
+  </header>
+  <div class="hook">
+    <p class="q">「把喜歡的烘焙，變成分享給世界的作品。」</p>
+    <p>你喜歡烘焙，也想試試看用短影音分享嗎？這 10 堂直播課，會親切地陪你從零開始，學會把烘焙拍得美美的、剪成好看的影片、分享給更多人。過程中你會找到自信、認識同好，還會順便學會經營頻道的能力，這些都會成為未來的你閃閃發光的亮點。</p>
   </div>
-</body>
-</html>
+  <section><h2>這堂課會帶給你什麼？</h2>
+      <div class="feature"><div class="feature-icon">💛</div>
+      <div><h3>找到自信，做喜歡的事</h3><p>這堂課最想帶給你的，是分享的自信與創作的快樂。透過烘焙表達自己，你會越來越喜歡、越來越肯定自己。</p></div></div>
+      <div class="feature"><div class="feature-icon">👫</div>
+      <div><h3>認識同好，不再一個人</h3><p>透過分享烘焙，你會認識好多和你一樣喜歡烘焙的朋友，找到屬於你的小天地。</p></div></div>
+      <div class="feature"><div class="feature-icon">📡</div>
+      <div><h3>老師直播教學，有問題馬上問</h3><p>全程線上直播，老師親切帶著你一步步學，有不懂的地方當下就能舉手問。</p></div></div>
+      <div class="feature"><div class="feature-icon">📱</div>
+      <div><h3>一支手機就能開始，零基礎也行</h3><p>不用買貴貴的設備，用你的手機就能學會拍攝、剪輯、分享，完全為新手設計。</p></div></div>
+      <div class="feature"><div class="feature-icon">🛡️</div>
+      <div><h3>安全又健康地玩社群</h3><p>教你保護自己的隱私、健康面對網路留言，讓你安心又開心地分享。</p></div></div>
+      <div class="feature"><div class="feature-icon">🌱</div>
+      <div><h3>順便學會的能力，未來都受用</h3><p>表達力、創意、經營小頻道的能力，還有慢慢累積的個人品牌，都會成為你未來的亮點。</p></div></div></section>
+  <section><h2>課程資訊</h2><table><tbody><tr><th>適合對象</th><td>喜歡烘焙、想用短影音分享生活、認識同好的人（零經驗也可以）</td></tr><tr><th>課程重點</th><td>享受創作、找到自信與同好，順便學會經營頻道的能力</td></tr><tr><th>課程形式</th><td>10 堂線上直播課程，每堂 50 分鐘</td></tr><tr><th>上課方式</th><td>於約定的固定時段上線直播上課，老師親切教學、可即時互動提問</td></tr><tr><th>課後回放</th><td>每堂直播上完後提供回放，方便你課後反覆複習、跟著練習</td></tr><tr><th>需要準備</th><td>一支能上網與拍照的手機、可安裝免費剪輯 App（CapCut）、還有你愛烘焙的心</td></tr><tr><th>結業成果</th><td>完成一支屬於自己的烘焙作品，並找到分享的自信</td></tr></tbody></table></section>
+  <section class="price-section"><h2>課程費用</h2>
+    <div class="price-highlight"><div class="amount"><small>NT$</small> 30,000 <small>元／全 10 堂</small></div>
+    <div class="per">平均每堂約 NT$ 3,000 元</div></div>
+    <table><tbody><tr><th>課程內容</th><td>10 堂線上直播課程（每堂 50 分鐘）＋ 課後回放</td></tr><tr><th>課程費用</th><td>NT$ 30,000 元／全 10 堂</td></tr><tr><th>平均單堂</th><td>每堂約 NT$ 3,000 元</td></tr><tr><th>包含項目</th><td>完整 10 堂直播授課、課後回放、課程講義與練習素材</td></tr></tbody></table>
+    <p class="note">＊報名與繳費方式、優惠方案請洽課程顧問。</p></section>
+  <section><h2>10 堂課一次看</h2><table class="lap"><tbody><tr><td class="lap-n">第1堂</td><td>開始之前，想想你為什麼喜歡烘焙</td></tr><tr><td class="lap-n">第2堂</td><td>找到你的風格，做一個有自己味道的頻道</td></tr><tr><td class="lap-n">第3堂</td><td>靈感不卡關，什麼都可以拍</td></tr><tr><td class="lap-n">第4堂</td><td>前三秒最重要，讓人想看下去</td></tr><tr><td class="lap-n">第5堂</td><td>把烘焙拍得美美的，簡單拍攝小技巧</td></tr><tr><td class="lap-n">第6堂</td><td>剪輯好好玩，用 CapCut 完成你的影片</td></tr><tr><td class="lap-n">第7堂</td><td>寫腳本，讓影片更清楚好看</td></tr><tr><td class="lap-n">第8堂</td><td>分享出去，和大家互動、認識同好</td></tr><tr><td class="lap-n">第9堂</td><td>越做越好，看數字、慢慢進步</td></tr><tr><td class="lap-n">第10堂</td><td>成果發表，分享你的作品、繼續加油</td></tr></tbody></table></section>
+  <div class="cta"><p class="big">名額有限，快來報名，<br>開始分享你的烘焙小宇宙吧！</p>
+    <p class="contact">報名與洽詢：［請填入聯絡方式 / 報名連結 / QR Code］</p></div>
+  <section class="curriculum"><h2>完整課程內容</h2>
+    <p style="color:var(--grey);font-size:15px;margin-top:-10px;">每堂課含學習目標與課程簡介</p>
+      <article class="lesson"><h3><span class="lesson-num">第 1 堂</span>開始之前，想想你為什麼喜歡烘焙</h3>
+      <div class="obj-label">學習目標</div>
+      <ul class="objs"><li>想清楚自己最喜歡烘焙的哪個部分，找到分享的初心</li><li>認識短影音可以怎麼記錄與分享你的烘焙日常</li><li>了解一支烘焙影片的基本結構：開頭、過程、結尾</li></ul>
+      <div class="intro-label">課程簡介</div><p class="intro">在開始拍影片之前，我們先聊聊一件最重要的事，那就是你為什麼喜歡烘焙。是揉麵團的療癒感，看著蛋糕膨起來的成就感，還是把成品分享給家人朋友的那份開心呢？這堂課想帶你找到屬於你的初心。當你拍的是真心喜歡的東西，影片自然會有溫度，你也會做得開心、做得長久。接著我們會帶你認識短影音這個工具，它就像一本會動的日記，可以記錄你每一次烘焙的過程與心情，也能讓你認識其他一樣喜歡烘焙的朋友。我們會用輕鬆的方式，帶你看一支烘焙影片的基本長相：開頭怎麼吸引人、中間怎麼呈現你做的東西、結尾怎麼和看影片的人互動。這堂課沒有壓力，不需要你馬上拍得多好，只要你願意開始分享，就是很棒的第一步。我們也會聊到，經營頻道其實會慢慢累積成一件很酷的事，你會越來越有自信，也可能認識很多同好。帶著喜歡烘焙的心情，我們一起出發吧！</p></article>
+      <article class="lesson"><h3><span class="lesson-num">第 2 堂</span>找到你的風格，做一個有自己味道的頻道</h3>
+      <div class="obj-label">學習目標</div>
+      <ul class="objs"><li>探索並找到屬於自己的烘焙主題與風格</li><li>設計一個讓人記得住的頻道形象與簡介</li><li>學會欣賞自己的特色，建立分享的自信</li></ul>
+      <div class="intro-label">課程簡介</div><p class="intro">每個人喜歡的烘焙都不一樣，有人愛做可愛的造型餅乾，有人專做超簡單的免烤甜點，有人喜歡挑戰華麗的蛋糕。這堂課要陪你找到你的風格，也就是讓你的頻道有自己味道的那個東西。我們會一起探索，你最愛做什麼？你想給看影片的人什麼感覺，是開心、療癒，還是讓人覺得「哇我也想試試看」？找到自己的風格，不但會讓你的頻道更有特色，這個過程也會幫你更認識自己、更喜歡自己。我們也會教你設計一個讓人記得住的頻道形象，包括一個好記的名字、一句介紹自己的話、還有一致的風格，讓新朋友一看就知道你的頻道在分享什麼。這堂課特別想跟你說的是，你不需要和別人一樣，也不需要很完美，你獨特的地方，正是別人會喜歡你的原因。學會欣賞自己的特色，大方地分享，你會發現自己越來越有自信。課堂練習中，你會用一句話描述自己的烘焙頻道，這會成為你之後創作的小指南針。</p></article>
+      <article class="lesson"><h3><span class="lesson-num">第 3 堂</span>靈感不卡關，什麼都可以拍</h3>
+      <div class="obj-label">學習目標</div>
+      <ul class="objs"><li>建立屬於自己的烘焙靈感收集方法，不再煩惱拍什麼</li><li>認識多種好玩的內容點子：教學、日常、失敗、挑戰</li><li>學會基本的網路安全與隱私保護觀念</li></ul>
+      <div class="intro-label">課程簡介</div><p class="intro">「這次要拍什麼？」可能是你之後最常遇到的小煩惱。這堂課要告訴你一個好消息，其實什麼都可以拍！我們會一起發想很多好玩的烘焙內容點子，像是分享一個簡單的食譜、記錄你週末做點心的日常、拍下失敗的搞笑時刻（失敗影片常常超受歡迎喔），或是挑戰一個很難的甜點。你會發現，原來同樣是做餅乾，也可以有十種不同的拍法。我們也會教你一個小撇步，那就是建立自己的「靈感收集本」，可以用手機備忘錄或筆記本，平常想到什麼點子就記下來，這樣要拍的時候就不會腦袋空空。這堂課還有一個很重要的部分，就是網路安全。我們會用簡單清楚的方式，提醒你哪些東西不要拍進去（例如家裡地址、能認出住處的招牌），為什麼不要隨便和網路上的陌生人透露個人資訊，拍到別人也要先問過。這些都是保護你自己的重要觀念。課堂練習中，你會列出 10 個馬上想拍的點子，建立你的第一份靈感清單，從此告別「不知道拍什麼」的煩惱。</p></article>
+      <article class="lesson"><h3><span class="lesson-num">第 4 堂</span>前三秒最重要，讓人想看下去</h3>
+      <div class="obj-label">學習目標</div>
+      <ul class="objs"><li>了解為什麼影片的開頭最關鍵</li><li>學會幾種簡單好用的開頭方法</li><li>練習為自己的影片設計吸引人的開頭</li></ul>
+      <div class="intro-label">課程簡介</div><p class="intro">你有沒有發現，自己滑手機看影片時，如果前幾秒不好看，手指一滑就過去了？別人看你的影片也是一樣的。所以這堂課要教你一個超實用的技巧，那就是怎麼設計影片的開頭，讓人想繼續看下去。烘焙其實很佔便宜，爆漿的巧克力、剛出爐冒煙的麵包、切開蛋糕看到漂亮的內餡，這些畫面本身就很吸引人。我們會教你把最誘人的那一幕放在影片最前面，而不是藏在中間。除了畫面，我們也會教你用簡單的一句話開頭，例如問一個問題（「你知道不用烤箱也能做甜點嗎？」），讓人好奇想看下去。這個技巧不只拍影片用得到喔，學會怎麼抓住別人的注意力、怎麼把重點講在前面，以後你寫作文、上台報告、自我介紹，都會很有幫助。我們會看很多有趣的例子，一起找出它們吸引人的祕密。課堂練習中，你會幫自己的一支影片想出三種不同的開頭，看看哪一種最讓人想看。學會這招，你的影片就更容易被看見囉！</p></article>
+      <article class="lesson"><h3><span class="lesson-num">第 5 堂</span>把烘焙拍得美美的，簡單拍攝小技巧</h3>
+      <div class="obj-label">學習目標</div>
+      <ul class="objs"><li>學會用手機把烘焙拍得好看的基本技巧</li><li>了解光線、角度的簡單原則</li><li>動手拍一段自己的烘焙影片</li></ul>
+      <div class="intro-label">課程簡介</div><p class="intro">同樣一個蛋糕，會拍的人能拍得讓人流口水，這堂課就要教你這個本領，而且只要用你的手機就可以！我們不會講複雜的攝影理論，只教你幾個馬上學得會、用得上的小技巧。第一個是光線，為什麼靠窗邊、用自然光拍，食物看起來最好吃？第二個是角度，從上往下拍、還是斜斜地拍，分別適合拍什麼？第三個是抓住關鍵時刻，撒糖粉的瞬間、淋上巧克力醬流下來的畫面、切開蛋糕的那一刀，這些畫面拍起來都特別誘人。我們也會教你一些小撇步，像是找一個乾淨的背景、把手機靠穩不要晃，這些簡單的調整就能讓影片質感大大提升。這堂課最棒的地方就是動手做，學完馬上練習。課堂練習中，你會實際拍一段自己的烘焙過程，把學到的技巧用上。當你看到自己拍的影片變得這麼好看，一定會很有成就感！記住，拍得好看不需要昂貴的設備，需要的只是一點點用心和練習。</p></article>
+      <article class="lesson"><h3><span class="lesson-num">第 6 堂</span>剪輯好好玩，用 CapCut 完成你的影片</h3>
+      <div class="obj-label">學習目標</div>
+      <ul class="objs"><li>學會用 CapCut 做基本的影片剪輯</li><li>學會加字幕、配音樂，讓影片更完整</li><li>了解使用音樂的版權觀念</li></ul>
+      <div class="intro-label">課程簡介</div><p class="intro">拍好的片段，要怎麼變成一支完整又好看的影片呢？答案就是剪輯！這堂課會帶你用一個免費又好用的 App，叫做 CapCut（剪映），把你的烘焙片段剪成一支可以分享的影片。別擔心，剪輯一點都不難，我們會一步一步帶你做，就算你完全沒剪過也沒問題。你會學到怎麼把片段剪短、留下精華，怎麼加上字幕（例如「攪拌到看不到粉粉的」），讓看影片的人更容易跟著做，還有怎麼配上好聽的背景音樂，讓影片更有氣氛。我們也會教你一個很重要的觀念，那就是音樂的版權。不是所有歌都可以隨便拿來用喔，我們會教你去哪裡找可以免費合法使用的音樂，這是尊重別人創作、也保護自己的好習慣。剪輯其實很像在玩拼圖，把片段組合起來、加上配樂，看著零散的素材變成一支完整的作品，超有成就感的！課堂練習中，你會把第五堂拍的片段，剪成一支有字幕、有配樂的完整影片。完成你的第一支作品，準備好分享出去了嗎？</p></article>
+      <article class="lesson"><h3><span class="lesson-num">第 7 堂</span>寫腳本，讓影片更清楚好看</h3>
+      <div class="obj-label">學習目標</div>
+      <ul class="objs"><li>學會用簡單的三段式架構規劃影片內容</li><li>學會運用 AI 工具幫忙想點子與文字</li><li>完成一支影片的簡單腳本</li></ul>
+      <div class="intro-label">課程簡介</div><p class="intro">厲害的影片通常不是隨便拍的，而是先有個簡單的計畫，這個計畫就叫腳本。這堂課要教你怎麼把腦中的想法，整理成一支有條理、好看的影片。我們會用一個很好記的三段式方法：開頭用吸引人的畫面或一句話抓住注意力，中間清楚地呈現你怎麼做，結尾邀請大家互動（例如「想要食譜的留言告訴我」）。照這個架構安排，你的影片就會清楚又完整，看的人也容易跟上。這堂課還會教你一個很酷的工具，那就是 AI（像是聊天機器人）。當你想不到要拍什麼、或不知道標題怎麼下的時候，可以請 AI 幫你想點子。我們會教你怎麼問 AI 才能得到好答案，這是現在很重要、很實用的能力，學起來對你的功課、報告都有幫助。寫腳本還能順便訓練你的邏輯和表達力，這些能力一輩子都用得到。課堂練習中，你會寫出一支烘焙影片的簡單腳本，從開頭到結尾都安排好。有了腳本，拍起來會更順，影片也會更好看喔！</p></article>
+      <article class="lesson"><h3><span class="lesson-num">第 8 堂</span>分享出去，和大家互動、認識同好</h3>
+      <div class="obj-label">學習目標</div>
+      <ul class="objs"><li>學會把影片分享出去的基本技巧</li><li>學會友善地和觀眾互動、認識同好</li><li>學會面對網路留言的健康心態</li></ul>
+      <div class="intro-label">課程簡介</div><p class="intro">影片做好了，最開心的一步就是分享出去，讓更多人看到你的作品！這堂課教你怎麼發布影片，還有怎麼和看影片的人互動。我們會教你一些小技巧，像是什麼時間發影片比較多人看、怎麼用標籤（像是 #居家烘焙 #手作甜點）讓對的人找到你、封面圖怎麼選才吸引人。但這堂課最想跟你分享的，是互動的快樂。當有人留言稱讚你的甜點、或問你食譜，記得友善地回覆他們。你會發現，透過烘焙，你能認識好多和你一樣喜歡烘焙的朋友，這種找到同好的感覺超棒的！我們也會認真地跟你聊網路留言這件事。網路上大部分人都很友善，但偶爾可能會遇到不客氣的留言。我們會教你用健康的心態面對，不是每個人的話都需要放在心上，你的作品有沒有價值，不是由一兩句酸言酸語決定的。保護好自己的心情和創作的快樂，才是最重要的事。課堂練習中，你會規劃接下來想分享的內容，準備好把你的烘焙世界分享給大家！</p></article>
+      <article class="lesson"><h3><span class="lesson-num">第 9 堂</span>越做越好，看數字、慢慢進步</h3>
+      <div class="obj-label">學習目標</div>
+      <ul class="objs"><li>學會看基本的後台數字，了解大家喜歡看什麼</li><li>用輕鬆的心態看待成長，不和別人比較</li><li>認識頻道累積起來的價值與未來可能</li></ul>
+      <div class="intro-label">課程簡介</div><p class="intro">當你分享了一陣子影片之後，平台會給你看一些數字，例如有多少人看了你的影片、看到第幾秒。這堂課要用很輕鬆的方式，教你看懂這些數字，幫助你越做越好。我們會教你從數字裡找線索，原來大家特別喜歡看你的免烤甜點、或最愛看你的失敗影片，知道這些，你就能多拍大家喜歡的內容。但這堂課最想提醒你的是，千萬不要被數字綁架。你的頻道才剛開始，影片少、數字小都是很正常的，每個現在很厲害的創作者，一開始也都是從零開始。重點是你有沒有越做越開心、越做越進步，而不是和別人比誰的數字大。我們也會跟你聊一件很棒的事，你現在拍的每一支影片，其實都在慢慢累積成一個屬於你的作品集。雖然你現在只是單純喜歡分享，但這些累積未來可能變成很酷的東西，也許是滿滿的回憶，也許是讓人認識你的個人品牌，也許是申請學校時能展現你的熱情與才華的作品。不過這些都不急，先好好享受創作的快樂最重要。課堂練習中，你會設定一個輕鬆的小目標，讓自己有方向地慢慢進步。</p></article>
+      <article class="lesson"><h3><span class="lesson-num">第 10 堂</span>成果發表，分享你的作品、繼續加油</h3>
+      <div class="obj-label">學習目標</div>
+      <ul class="objs"><li>在課堂上發表自己的烘焙作品，獲得鼓勵與回饋</li><li>學會持續創作的方法，養成分享的好習慣</li><li>帶著自信與快樂，繼續經營你的烘焙頻道</li></ul>
+      <div class="intro-label">課程簡介</div><p class="intro">經過九堂課，最後一堂是屬於你的成果發表！在直播課堂上，你會分享自己這段時間最得意的烘焙作品，老師會給你鼓勵和建議，你也可以看看其他同學的作品，聽聽大家的點子。看別人怎麼分享烘焙，常常會帶給你很多新靈感，也會認識更多同好。我們會一起回顧這趟旅程，從找到喜歡烘焙的初心、發展自己的風格、想點子、設計開頭、拍攝剪輯、寫腳本，到分享互動、看懂數字，你會驚訝地發現，自己已經從一個剛起步的新手，變成一個能完整做出、分享烘焙影片的小創作者了，這真的很厲害！這堂課也會教你怎麼繼續下去，包括怎麼安排固定的創作時間、怎麼讓自己保持新鮮感不會膩。最後，我們最想跟你說的是，經營頻道最珍貴的，不是有多少人追蹤，而是你在過程中找到的自信、認識的朋友、還有那份對烘焙的熱愛。帶著這些收穫，無論未來你走到哪裡，都可以繼續用烘焙分享你的世界、表達你自己。為你的每一步加油，繼續閃閃發光吧！</p></article></section>
+  <footer>用烘焙分享你的小宇宙 · 烘焙短影音線上直播課程</footer>
+</div></body></html>
